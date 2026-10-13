@@ -8,10 +8,12 @@ Dataset source: [Kaggle - Solder Joint Defect Detection](https://www.kaggle.com/
 
 ### Overall Model Performance
 
-| Architecture | Accuracy | Macro F1-Score |
+| Model | Accuracy | Macro F1-Score |
 | :--- | :--- | :--- |
 | Custom CNN | 98.23% | 0.92 |
+| SVM-CNN | 97.64% | N/A |
 | ResNet-50 | 97.83% | 0.91 |
+| SVM-ResNet | 98.43% | N/A |
 
 Total training time: 696.65 seconds
 
@@ -21,6 +23,6 @@ Total training time: 696.65 seconds
 | :--- | :--- | :--- |
 | Normal | 1.00 | 1.00 |
 | Rotated Component | 0.81 | 0.94 |
-| Solder Bridge / Short | 0.92 | 0.89 |
+| Short | 0.92 | 0.89 |
 | Insufficient Solder | 0.95 | 0.91 |
 | Excess Solder | 0.90 | 0.83 |
