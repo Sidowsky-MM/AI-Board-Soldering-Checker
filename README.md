@@ -4,6 +4,7 @@ Automated optical inspection (AOI) pipeline implemented in MATLAB for classifyin
 Test objects was created by other creator earlier searched on github. 
 There is a link to a github repo:
 https://www.kaggle.com/datasets/akshaydattatraykhare/solder-joint-defect-detection
+https://www.kaggle.com/datasets/mauriziocalabrese/soldef-ai-pcb-dataset-for-defect-detection
 ## Performance Benchmark
 
 | Model | Accuracy |
